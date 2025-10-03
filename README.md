@@ -40,7 +40,9 @@
 + Yellow LED Cathode to GND
 
 #
-![Alt text](image/circuit.png)
+![Alt text](images/circuit.png)
+
+*Note: The DHT11 temperature and humidity sensor is not included in this diagram, but should be connected to the Arduino as described in the documentation.*
 
 
 

@@ -44,5 +44,11 @@
 
 *Note: The DHT11 temperature and humidity sensor is not included in this diagram, but should be connected to the Arduino as described in the documentation.*
 
+#
+### **How it works**
+The DHT sensor reads in the environmental humidity and temperature, then the arduino outputs the collected values and outputs them via the liquid crystal display. The soil moisture sensor has two prongs that once inserted into soil, will read the value of the moisture within the soil. The value from the sensor I used anywhere from 300 to 1023 (300 meaning very wet, and 1023 meaning very dry). The LEDS would then be triggered on based off the value. Red for dry, yellow for moderate dryness, and both off for healthy soil.
+#
+![Alt text](images/circuit2.png)
+
 
 
